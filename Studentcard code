@@ -1,0 +1,37 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View ,Image} from 'react-native';
+ (
+    <View style={styles.container}>
+   <View styl
+});
+e={{background:'white'}}>
+     <Image source={require("./assets/aneeqa
+export default function App() {
+  return.jpeg")} style={{width:220, height:420, background:'white',alignSelf:'center',borderRadius:50}}/>
+   </View>
+<Text>Student name</Text>   <Text>Aneeqa Ashfaq</Text>
+<Text>Father name</Text>   <Text>Muhammad Ashfaq</Text>
+<Text>Date of birth</Text>   <Text>20 Aug 2001</Text>
+<Text>Registration no</Text>   <Text>19-ARID-1179</Text>
+<Text>Address</Text>   <Text>Rawalpindi</Text>
+<Text>Gmail</Text>   <Text>aneeqa123@gmail.com</Text>
+<Text>contact no</Text>   <Text>0317 5645672</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+  
+  background: 'white',
+},
+stretch:{
+  width:50,
+  height:200,
+  resizeMode:'stretch'}
+
